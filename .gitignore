@@ -1,0 +1,37 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# --- Virtual env ---
+.venv/
+venv/
+env/
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- System ---
+.DS_Store
+Thumbs.db
+
+# --- Environment variables ---
+.env
+
+# --- Compiled / cache ---
+*.log
+*.pid
+
+# --- Pytest / coverage ---
+htmlcov/
+.coverage
+.cache
+.pytest_cache/
+
+# --- Migrations (se usar alembic futuramente) ---
+migrations/
+
